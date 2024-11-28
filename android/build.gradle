@@ -1,0 +1,17 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.4.0' // Atualize para a versão mais recente compatível
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.0'  // Versão do plugin Kotlin (se você usa Kotlin)
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
